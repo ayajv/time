@@ -1,0 +1,44 @@
+{
+    "name": "vijay/time",
+    "authors": [
+        {
+            "name": "S VIJAY",
+            "email": "vijay.s2@spi-global.com"
+        }
+    ],
+    "minimum-stability": "dev-master",
+    "require": {
+        "vijay/time":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vijay\\Time\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "vijay/time",
+                "version": "dev-master",
+                "source": {
+                    "url": "git://github.com/vj-2018/time.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0" : {
+                        "Vijay\\Time" : "src"
+                    }
+                }
+            }
+        }
+    ],
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Vijay\\Time\\TimeServiceProvider"
+    		]
+    	}
+    }    
+}
