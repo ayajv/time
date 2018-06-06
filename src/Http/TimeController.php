@@ -1,6 +1,6 @@
 <?php
 
-namespace Vijay\Time\Http;
+namespace Ayajv\Time\Http;
 
 use Carbon\Carbon;
 use App\Http\Controllers\Controller;

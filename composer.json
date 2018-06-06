@@ -1,42 +1,25 @@
 {
-    "name": "vijay/time",
+    "name": "ayajv/time",
     "authors": [
         {
-            "name": "S VIJAY",
-            "email": "vijay.s2@spi-global.com"
+            "name": "Vijay",
+            "email": "vijay.sunderaj2015@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "version":"1.0.0",
     "require": {
-        "vijay/time":"dev-master"
+        "php": "^7.1.3"
     },
     "autoload": {
         "psr-4": {
-            "Vijay\\Time\\": "src/"
+            "Ayajv\\Time\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "vijay/time",
-                "version": "dev-master",
-                "source": {
-                    "url": "git://github.com/vj-2018/time.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "Vijay\\Time" : "src"
-                    }
-                }
-            }
-        }
-    ],
+    },    
     "extra": {
     	"laravel": {
     		"providers": [
-    			"Vijay\\Time\\TimeServiceProvider"
+    			"Ayajv\\Time\\TimeServiceProvider"
     		]
     	}
     }    

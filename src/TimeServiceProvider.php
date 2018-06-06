@@ -1,5 +1,5 @@
 <?php
-namespace Vijay\Time;
+namespace Ayajv\Time;
 
 use Illuminate\Support\ServiceProvider;
 

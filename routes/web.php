@@ -9,4 +9,4 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('time/{timezone?}', 'Vijay\Time\Http\TimeController@index');
+Route::get('time/{timezone?}', 'Ayajv\Time\Http\TimeController@index');

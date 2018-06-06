@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Welcome to the Welcome Package</title>
-	<link rel="stylesheet" type="text/css" href="/assets/welcome.css">
+	<link rel="stylesheet" type="text/css" href="{{URL::asset('resources/assets/time.css')}}">
 </head>
 <body>
 

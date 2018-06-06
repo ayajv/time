@@ -2,8 +2,8 @@
 Use to display current time based on timezones
 
 #require package name
-      "require": {       
-        "vijay/time":"dev-master"        
+    "require": {       
+        "Ayajv/time":"1.0.0",        
     }
 
 
@@ -14,6 +14,6 @@ Use to display current time based on timezones
         },
         {
           "type": "path",
-          "url": "packages/vijay/time"
+          "url": "packages/ayajv/time"
         }
       ]
