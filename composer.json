@@ -6,9 +6,8 @@
             "email": "vijay.s2@spi-global.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "vijay/time":"1.0"
+        "vijay/time":"dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -20,7 +19,7 @@
             "type": "package",
             "package": {
                 "name": "vijay/time",
-                "version": "1.0",
+                "version": "dev-master",
                 "source": {
                     "url": "git://github.com/vj-2018/time.git",
                     "type": "git",
